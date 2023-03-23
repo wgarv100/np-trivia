@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>National Park Trivia</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="module" src="script.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+    </style>
+  </head>
+
+  <nav class="navbar">
+    <div class="nav-headline">National Park Trivia</div>
+    <div class="points">
+      <button id="reset-btn" class="reset-btn">Reset</button>
+      <div id="counter" class="counter"></div>
+    </div>
+  </nav>
+  <body>
+    <div class="container">
+      <button id="start-btn" class="start-btn">Start</button>
+      <div id="question-container" class="hide question-container">
+        <h1 id="question-text" class="question-text"></h1>
+        <div class="answers-container">
+          <button id="answers-btn-1" class="answers-btn"></button>
+          <button id="answers-btn-2" class="answers-btn"></button>
+          <button id="answers-btn-3" class="answers-btn"></button>
+          <button id="answers-btn-4" class="answers-btn"></button>
+        </div>
+        <div id="results-div" class="results-div">
+          <h2 id="result-text" class="result-text"></h2>
+          <div class="next-btn-div">
+            <button id="next-btn" class="next-btn hide">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
